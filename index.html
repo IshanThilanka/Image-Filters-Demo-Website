@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Filter Web</title>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</head>
+<body>
+    <div class="headdiv">
+        <h1>Mini Project Website</h1>
+    </div>
+    <div class="imgs">
+        <canvas id="can1" class="canvs1"></canvas>
+        <canvas id="can2" class="canvs2"></canvas>
+    </div>
+    <div class="uploads">
+        <input type="file" multiple="false" accept="images/*" id="img" onchange="upload()" class="uploadbtn">
+    </div>
+    <div>
+        <input type="button" id="btngray" value="Gray Filter" class="graybtn" onclick="makegray()">
+        <input type="button" id="btnred" value="Red Filter" class="redbtn" onclick="doRed()">
+    </div>
+    <div>
+        <input type="button" id="clearbtn" value="Clear" class="clrbtn" onclick="clrcanvas()">
+    </div>
+</body>
+</html>
