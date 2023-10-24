@@ -1,0 +1,68 @@
+
+img{
+
+  text-align:left;
+  height:100px;
+  width : 120px; 
+}
+.headdiv{
+  font-family : Monospace ;
+  text-align: center;
+  color:#000157;
+  padding:10px 0;
+  box-shadow: 0 1em 1em -1em rgba(0, 0, 1, .50);
+  background-color: rgba(162,225,234,255);
+ border-right-style:solid;
+  border-color:blue;
+
+}
+.canvs1{
+  margin-top :40px ;
+  margin-left :300px ;
+  align:center;
+  border: 2px solid #c3c3c3;
+  height: 400px;
+  width:400px;
+}
+.canvs2{
+  margin-top :40px ;
+  margin-left :25px ;
+  align:center;
+  border: 2px solid #c3c3c3;
+  height: 400px;
+  width:400px;
+}
+.uploadbtn{
+    font-family:Monospace;
+  padding: 20px ;
+  text-align:center;
+  margin-left: 600px;
+}
+.graybtn{
+  Background:Black;
+  color:white;
+  padding:10px 30px;
+  font-family:nunito sans;
+  margin-left:550px;
+   display: inline-block;
+  
+}
+.clrbtn{
+ 
+  color:black;
+  padding: 10px 600px ;
+  margin-left : 100px;
+   margin-top : 10px;
+  background-color:#e6a100;
+  text-align:center;
+  margin-left: px;
+}
+.redbtn{
+  Background:Black;
+  color:white;
+  padding:10px 30px;
+  font-family:nunito sans;
+  margin-left:10px;
+   display: inline-block;
+  
+}
